@@ -1,8 +1,27 @@
 aid: basking-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/basking-biosciences.png
 name: Basking Biosciences
-description: 'Basking Biosciences is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: biotech-therapeutics. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Basking Biosciences is a clinical-stage biopharmaceutical company in
+  Research Triangle, North Carolina (with operations in Mitchelton, Queensland, Australia)
+  developing novel therapies for life-threatening blood clots. Its lead program BB-031
+  is an investigational RNA aptamer that targets von Willebrand Factor (vWF) to deliver
+  a rapid-onset, targeted, and reversible thrombolytic for acute ischemic stroke, paired
+  with BB-025, a direct-acting reversal agent designed to rapidly neutralize BB-031.
+  The company is running the RAISE Phase 2 clinical trial and is backed by Insight
+  Partners. Surfaced as a VC portfolio company and added to the API Evangelist network;
+  the company publishes no public developer API, SDK, or documentation surface, so
+  this profile carries company identity only.'
 url: https://raw.githubusercontent.com/api-evangelist/basking-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Biotech Therapeutics
+- Biopharmaceutical
+- Clinical Stage
+- Stroke
+- Thrombosis
+- Drug Development
+- Life Sciences
 apis: []
+common:
+- type: Website
+  url: https://www.baskingbiosciences.com/
+- type: About
+  url: https://www.baskingbiosciences.com/about
+- type: Blog
+  url: https://www.baskingbiosciences.com/news
+- type: LinkedIn
+  url: https://www.linkedin.com/company/basking-biosciences-inc
+- type: PrivacyPolicy
+  url: https://www.baskingbiosciences.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.baskingbiosciences.com/legal/terms-of-use
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
