@@ -1,0 +1,52 @@
+generated: '2026-08-10'
+method: probed
+source: live HTTPS probes of every host named in apis.yml
+note: >-
+  Every /.well-known/ path returned 404 on both apparent hosts. Basking Biosciences
+  runs a Webflow-hosted marketing site, which answers unknown /.well-known/* paths
+  with a 404 HTML body reading "Invalid .well-known request". No discovery document
+  is served. Recorded as a verified ABSENCE — no WellKnown or SecurityTxt pointer is
+  emitted in apis.yml, because a pointer would assert the provider serves a surface
+  it does not.
+hosts:
+- host: https://www.baskingbiosciences.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://baskingbiosciences.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://api.baskingbiosciences.com
+  resolves: false
+  note: >-
+    NXDOMAIN — the conventional API subdomain does not exist in DNS. Probed and
+    recorded so a later round does not re-test it as an open question.
+x-evidence:
+  fetched: '2026-08-10'
+  hosts_probed: 3
+  documents_found: 0

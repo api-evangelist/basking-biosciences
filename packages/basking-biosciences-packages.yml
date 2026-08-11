@@ -1,0 +1,50 @@
+generated: '2026-08-10'
+method: searched
+source: npm registry search, PyPI, GitHub org + repository search
+note: >-
+  No first-party client library exists. Basking Biosciences is a clinical-stage
+  biopharmaceutical company; it ships no software product, operates no GitHub
+  organization, and publishes nothing to any package registry. This file records a
+  verified zero, so no Packages or SDKs pointer is emitted in apis.yml.
+packages: []
+package_count: 0
+registries_searched:
+- registry: npm
+  query: basking biosciences
+  first_party_hits: 0
+- registry: pypi
+  query: basking, basking-biosciences
+  first_party_hits: 0
+  status: 404
+- registry: github
+  query: basking biosciences
+  first_party_hits: 0
+  note: >-
+    The only repository matching the query is api-evangelist/basking-biosciences —
+    this profile itself. No baskingbio or basking-biosciences GitHub organization
+    exists (both 404 on the GitHub API).
+x-disambiguation:
+  warning: >-
+    DO NOT attach these to Basking Biosciences. A registry search for "basking"
+    surfaces a well-populated Python SDK and a GraphQL API belonging to an unrelated
+    company with a similar name. Attaching them would credit a biopharma company with
+    another company's developer surface.
+  confused_with:
+  - name: Basking Automation GmbH
+    domain: basking.io
+    business: workplace occupancy / office utilization analytics
+    artifacts:
+    - registry: pypi
+      name: basking-sdk
+      url: https://pypi.org/project/basking-sdk/
+      version: 0.9.59
+      published: '2026-03-12'
+      author: Basking Automation GmbH <info@basking.io>
+      homepage: https://basking.io
+    - surface: GraphQL API + developer portal
+      url: https://basking.io/resources/developers/
+  basis: >-
+    PyPI package metadata names Basking Automation GmbH as author with homepage
+    basking.io. Basking Biosciences is at baskingbiosciences.com, is a therapeutics
+    developer in Research Triangle, North Carolina, and shares no domain, org, or
+    author identity with basking.io.
