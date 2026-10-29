@@ -64,6 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Basking Biosciences is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: biotech-therapeutics. This profile is a lead awaiting the enrichment pipeline.
+Basking Biosciences is a clinical-stage biopharmaceutical company in Research Triangle, North Carolina (with operations in Mitchelton, Queensland, Australia) developing novel therapies for life-threatening blood clots. Its lead program BB-031 is an investigational RNA aptamer that targets von Willebrand Factor (vWF) to deliver a rapid-onset, targeted, and reversible thrombolytic for acute ischemic stroke, paired with BB-025, a direct-acting reversal agent designed to rapidly neutralize BB-031. The company is running the RAISE Phase 2 clinical trial and is backed by Insight Partners. Surfaced as a VC portfolio company and added to the API Evangelist network; the company publishes no public developer API, SDK, or documentation surface, so this profile carries company identity only.
 
-Backed by: insight-partners
+**Areas:** Company · Biotech Therapeutics · Biopharmaceutical · Clinical Stage · Stroke · Thrombosis · Drug Development · Life Sciences
+
+## Basking Biosciences on APIs.io
+
+Everything profiled for Basking Biosciences is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/basking-biosciences/](https://apis.io/providers/basking-biosciences/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Basking Biosciences Domain Security](https://apis.io/security/basking-biosciences/basking-biosciences-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.baskingbiosciences.com/)
+- [Blog](https://www.baskingbiosciences.com/news)
+- [Terms of service](https://www.baskingbiosciences.com/legal/terms-of-use)
+- [Privacy policy](https://www.baskingbiosciences.com/legal/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 9.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/basking-biosciences/](https://apis.io/providers/basking-biosciences/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Basking Biosciences: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/basking-biosciences/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
